@@ -1,0 +1,9 @@
+ng g c student
+
+"node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+ng s (for run)
+ctrl+c (for close)
+
