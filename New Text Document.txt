@@ -7,3 +7,5 @@ ng g c student
 ng s (for run)
 ctrl+c (for close)
 
+npm update (for update)
+
