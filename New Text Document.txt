@@ -1,16 +1,29 @@
+ng new myangular --standalone false
+
 ng g c student
+
+npm i bootstrap@5.3.3
 
 "node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 
+npm update (for update to github)
+
+
 ng s (for run)
 ctrl+c (for close)
 
-npm update (for update)
 
-https://v17.angular.io/tutorial/first-app/first-app-lesson-14
 
-https://transform.tools/json-to-typescript
+--*--*--*--JSON
 
-https://www.youtube.com/@Codevolution/playlists
+npm install -g json-server
+
+json-server --watch db.json
+
+-*-*-*-*-*-
+
+----------------------------
+{path: 'student', component:StudentComponent}
+

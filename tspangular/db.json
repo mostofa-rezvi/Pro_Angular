@@ -109,6 +109,16 @@
       "availableUnits": "5",
       "wifi": "",
       "laundry": ""
+    },
+    {
+      "id": "f929",
+      "name": "Mostofa",
+      "city": "Azimpur",
+      "state": "Dhaka",
+      "photo": "nai",
+      "availableUnits": "0",
+      "wifi": "true",
+      "laundry": "false"
     }
   ]
 }
