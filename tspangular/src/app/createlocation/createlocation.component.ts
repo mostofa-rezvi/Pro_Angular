@@ -40,32 +40,15 @@ export class CreatelocationComponent implements OnInit {
     this.location.laundry = this.formValue.value.laundry;
 
     this.locationService.createLocation(this.location)
-      // .subscribe({
-      //   next: ((res) =>
-      //   {
-      //     console.log(res);
-      //     this.formValue.reset();
-      //   }
-      //   ),
-      //   error: ((error) =>
-      //   {
-      //     console.log(error);
-      //   }
-      //   )
-      // });
-
-      .subscribe({
-        next: res =>
-        {
+      .subscribe(
+        res => {
           console.log(res);
           this.formValue.reset();
         },
-        error: error =>
-        {
+        error=>{
           console.log(error);
-        }        
-      });
-
+        }
+      )
   }
 
 }
