@@ -101,24 +101,34 @@
       "laundry": true
     },
     {
-      "id": "7e6f",
-      "name": "ad",
-      "city": "daf",
-      "state": "sfd",
-      "photo": "sdf",
-      "availableUnits": "5",
-      "wifi": "",
-      "laundry": ""
+      "id": "4f11",
+      "name": "Rezvi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "photo": "ok",
+      "availableUnits": "9",
+      "wifi": "true",
+      "laundry": "true"
     },
     {
-      "id": "f929",
-      "name": "Mostofa",
-      "city": "Azimpur",
+      "id": "2e1f",
+      "name": "Rezvi",
+      "city": "Dhaka",
       "state": "Dhaka",
-      "photo": "nai",
-      "availableUnits": "0",
+      "photo": "ok",
+      "availableUnits": "9",
       "wifi": "true",
-      "laundry": "false"
+      "laundry": "true"
+    },
+    {
+      "id": "f7ee",
+      "name": "Rezvi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "photo": "ok",
+      "availableUnits": "9",
+      "wifi": true,
+      "laundry": true
     }
   ]
 }

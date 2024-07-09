@@ -19,8 +19,10 @@ export class CreatelocationComponent implements OnInit {
   formValue !: FormGroup;
 
   constructor
-    (private locationService: LocationService, private router: Router,
-      private httpClient: HttpClient, private formBuilder: FormBuilder) {
+    (private locationService: LocationService,
+      private router: Router,
+      private httpClient: HttpClient,
+      private formBuilder: FormBuilder) {
 
   }
 
@@ -40,15 +42,31 @@ export class CreatelocationComponent implements OnInit {
     this.location.laundry = this.formValue.value.laundry;
 
     this.locationService.createLocation(this.location)
-      .subscribe(
-        res => {
+      // .subscribe({
+      //   next: ((res) =>
+      //   {
+      //     console.log(res);
+      //     this.formValue.reset();
+      //   }
+      //   ),
+      //   error: ((error) =>
+      //   {
+      //     console.log(error);
+      //   }
+      //   )
+      // });
+
+      .subscribe({
+        next: res => {
           console.log(res);
           this.formValue.reset();
+          this.router.navigate(['/location']);
         },
-        error=>{
+        error: error => {
           console.log(error);
         }
-      )
+      });
+
   }
 
 }

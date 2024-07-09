@@ -19,4 +19,8 @@ export class LocationService {
   createLocation(location:Location): Observable<any>{
     return this.httpClient.post(this.baseUrl, location);
   }
+
+  deleteLocation(id:string):Observable<any>{
+    return this.httpClient.delete(this.baseUrl+"/"+id);
+  }
 }

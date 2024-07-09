@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { LocationService } from './location.service';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { error } from 'node:console';
 
 @Component({
   selector: 'app-location',
   templateUrl: './location.component.html',
   styleUrl: './location.component.css'
 })
-export class LocationComponent implements OnInit{
+export class LocationComponent implements OnInit {
 
   locations: any;
 
@@ -21,6 +22,18 @@ export class LocationComponent implements OnInit{
     // throw new Error('Method not implemented.');
   }
 
+  deleteLocation(id: string) {
+    this.locationService.deleteLocation(id)
 
+      .subscribe({
+        next: rex => {
+          this.locations = this.locationService.getAllLocation();
+          this.router.navigate(['/location']);
+        },
+        error: error => {
+          console.log(error);
+        }
+      })
+  }
 
 }

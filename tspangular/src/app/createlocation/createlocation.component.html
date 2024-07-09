@@ -23,18 +23,15 @@
             <label for="exampleInputPassword1" class="form-label">Available Units</label>
             <input type="text" class="form-control" formControlName="availableUnits">
         </div>
-        <div class="mb-3">
+        <div class="mb-3 form-check">
             <label for="exampleInputPassword1" class="form-label">Wifi</label>
-            <input type="text" class="form-control" formControlName="wifi">
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Laundry</label>
-            <input type="text" class="form-control" formControlName="laundry">
+            <input type="checkbox" class="form-check-input" formControlName="wifi">
         </div>
         <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <label for="exampleInputPassword1" class="form-label">Laundry</label>
+            <input type="checkbox" class="form-check-input" formControlName="laundry">
         </div>
+
         <button type="submit" class="btn btn-primary" (click)="createLocation()">Submit</button>
     </form>
 </div>
