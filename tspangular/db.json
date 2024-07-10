@@ -103,27 +103,17 @@
     {
       "id": "4f11",
       "name": "Rezvi",
-      "city": "Dhaka",
+      "city": "Azimpur",
       "state": "Dhaka",
-      "photo": "ok",
-      "availableUnits": "9",
+      "photo": "Okay boss",
+      "availableUnits": "2",
       "wifi": "true",
-      "laundry": "true"
-    },
-    {
-      "id": "2e1f",
-      "name": "Rezvi",
-      "city": "Dhaka",
-      "state": "Dhaka",
-      "photo": "ok",
-      "availableUnits": "9",
-      "wifi": "true",
-      "laundry": "true"
+      "laundry": false
     },
     {
       "id": "f7ee",
       "name": "Rezvi",
-      "city": "Dhaka",
+      "city": "Azimpur",
       "state": "Dhaka",
       "photo": "ok",
       "availableUnits": "9",
