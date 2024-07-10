@@ -111,14 +111,26 @@
       "laundry": false
     },
     {
-      "id": "f7ee",
+      "id": "e719",
       "name": "Rezvi",
-      "city": "Azimpur",
-      "state": "Dhaka",
-      "photo": "ok",
-      "availableUnits": "9",
-      "wifi": true,
-      "laundry": true
+      "city": "Lalbag",
+      "state": "Azimpur",
+      "photo": "oh!",
+      "availableUnits": "7",
+      "wifi": false,
+      "laundry": false
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "Rezvi",
+      "email": "rezvi@gmail.com",
+      "cell": "01234567899",
+      "location": {
+        "id":"0"
+      }
     }
   ]
 }
