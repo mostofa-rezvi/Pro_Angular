@@ -121,16 +121,29 @@
       "laundry": false
     }
   ],
-
   "students": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Rezvi",
       "email": "rezvi@gmail.com",
       "cell": "01234567899",
       "location": {
-        "id":"0"
+        "id": "0"
       }
+    },
+    {
+      "id": "5cb1",
+      "name": "Rezvi",
+      "email": "rezvi@mail.com",
+      "cell": "",
+      "location": null
+    },
+    {
+      "id": "a455",
+      "name": "Rezvi",
+      "email": "rezvi@mail.com",
+      "cell": "",
+      "location": null
     }
   ]
 }
