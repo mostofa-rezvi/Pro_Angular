@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: 'location', component: LocationComponent},
   {path: 'createlocation', component: CreatelocationComponent},
   {path: 'updatelocation/:id', component: UpdatelocationComponent},
-  {path: 'students', component: ViewstudentComponent},
+  {path: 'student', component: ViewstudentComponent},
   {path: 'createstudent', component: CreatestudentComponent},
 ];
 

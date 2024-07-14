@@ -27,3 +27,6 @@ json-server --watch db.json
 ----------------------------
 {path: 'student', component:StudentComponent}
 
+
+
+https://www.uml-diagrams.org/examples/hospital-management-example.html
