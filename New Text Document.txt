@@ -36,3 +36,8 @@ https://www.uml-diagrams.org/examples/hospital-management-example.html
 Template:
 
 https://themewagon.github.io/dentcare/index.html
+
+---------------
+Project link:
+https://www.youtube.com/playlist?list=PLN-ny8nPwNzW8I9KdOrXNukKsUsR_0y_C
+https://github.com/jamesguru/Youtube/blob/master/Hospital-management-system/Frontend/src/app/finance/finance-routing.module.ts
