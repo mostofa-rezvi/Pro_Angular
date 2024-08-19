@@ -43,3 +43,4 @@ https://www.youtube.com/playlist?list=PLN-ny8nPwNzW8I9KdOrXNukKsUsR_0y_C
 https://github.com/jamesguru/Youtube/blob/master/Hospital-management-system/Frontend/src/app/finance/finance-routing.module.ts
 
 https://therichpost.com/bootstrap-free-hospital-management-admin-dashboard-template/
+https://templateshub.net/
