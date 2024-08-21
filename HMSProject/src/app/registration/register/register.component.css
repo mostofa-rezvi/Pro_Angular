@@ -1,0 +1,83 @@
+/* Center the card on the page */
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.account-wrapper {
+    width: 100%;
+    max-width: 500px; /* Max width of the registration card */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.account-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.account-logo img {
+    max-width: 100%; /* Responsive logo */
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.checkbox label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.account-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff; /* Primary color */
+    color: #fff;
+    font-size: 16px;
+}
+
+.account-btn:disabled {
+    background-color: #ccc; /* Disabled state */
+}
+
+.login-link a {
+    color: #007bff; /* Primary color */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
