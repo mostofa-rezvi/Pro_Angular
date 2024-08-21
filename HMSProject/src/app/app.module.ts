@@ -10,6 +10,8 @@ import { AppointmentComponent } from './homepage/appointment/appointment.compone
 import { LoginComponent } from './registration/login/login.component';
 import { RegisterComponent } from './registration/register/register.component';
 import { ForgotpasswordComponent } from './registration/forgotpassword/forgotpassword.component';
+import { AdddoctorComponent } from './doctor/adddoctor/adddoctor.component';
+import { EditdoctorComponent } from './doctor/editdoctor/editdoctor.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ForgotpasswordComponent } from './registration/forgotpassword/forgotpas
     AppointmentComponent,
     LoginComponent,
     RegisterComponent,
-    ForgotpasswordComponent
+    ForgotpasswordComponent,
+    AdddoctorComponent,
+    EditdoctorComponent
   ],
   imports: [
     BrowserModule,

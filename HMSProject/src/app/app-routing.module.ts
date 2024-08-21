@@ -4,14 +4,15 @@ import { AppointmentComponent } from './homepage/appointment/appointment.compone
 import { BodypartComponent } from './homepage/bodypart/bodypart.component';
 import { LoginComponent } from './registration/login/login.component';
 import { RegisterComponent } from './registration/register/register.component';
+import { ForgotpasswordComponent } from './registration/forgotpassword/forgotpassword.component';
 
 const routes: Routes = [
-  {path: '' , component: BodypartComponent},
+  {path: 'home' , component: BodypartComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'appointment', component: AppointmentComponent},
-  {path: '', redirectTo: '/appointment', pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
-  {path: '**', redirectTo: '/login'},
-  {path: 'register', component: RegisterComponent}
+  {path: 'register', component: RegisterComponent},
+  {path: 'forgetpassword', component: ForgotpasswordComponent}
 ];
 
 @NgModule({
