@@ -1,0 +1,27 @@
+#doctorsidebar
+- doctordashboard
+- doctorprofile
+- doctoractivities
+- doctorpatients
+- doctorappointmentslist
+- doctoraccount
+    - doctorsalary
+    - doctortaxes
+    - doctorprovidentfund
+- doctorpayroll
+    - doctorattendance
+    - doctorholidays
+    - doctorleave
+- doctorsettings
+    - doctorchangepassword
+    - calender
+    - doctoreditprofile
+
+#doctornav
+- Logo
+- 3 dots
+- doctornotification
+- doctoradmin
+    - doctorprofile
+    - doctorsettings
+    - doctorlogout

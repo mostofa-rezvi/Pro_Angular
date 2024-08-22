@@ -1,0 +1,111 @@
+/* doctorhome.component.css */
+
+/* Main wrapper styles */
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header styles */
+.header {
+    background-color: #f8f9fa;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.nav.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    min-width: 200px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+
+.sidebar-menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar-menu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-menu li.active {
+    background-color: #007bff;
+}
+
+.menu-title {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.badge {
+    font-size: 12px;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.status.online {
+    background-color: #28a745;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .header, .sidebar {
+        flex-direction: column;
+    }
+
+    .header-left, .nav.user-menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

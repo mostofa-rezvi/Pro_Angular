@@ -26,6 +26,7 @@ import { DoctorchangepasswordComponent } from './doctor/doctorsidebar/doctorsett
 import { DoctoreditprofileComponent } from './doctor/doctorsidebar/doctorsettings/doctoreditprofile/doctoreditprofile.component';
 import { CalenderComponent } from './doctor/calender/calender.component';
 import { DoctorhomeComponent } from './doctor/doctorhome/doctorhome.component';
+import { DoctorsidebarComponent } from './doctor/doctorsidebar/doctorsidebar/doctorsidebar.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { DoctorhomeComponent } from './doctor/doctorhome/doctorhome.component';
     DoctorchangepasswordComponent,
     DoctoreditprofileComponent,
     CalenderComponent,
-    DoctorhomeComponent
+    DoctorhomeComponent,
+    DoctorsidebarComponent
   ],
   imports: [
     BrowserModule,
