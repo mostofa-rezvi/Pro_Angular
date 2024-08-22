@@ -5,6 +5,7 @@ import { BodypartComponent } from './homepage/bodypart/bodypart.component';
 import { LoginComponent } from './registration/login/login.component';
 import { RegisterComponent } from './registration/register/register.component';
 import { ForgotpasswordComponent } from './registration/forgotpassword/forgotpassword.component';
+import { DoctornavComponent } from './doctor/doctornav/doctornav.component';
 
 const routes: Routes = [
   {path: 'home' , component: BodypartComponent},
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path: 'appointment', component: AppointmentComponent},
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
-  {path: 'forgetpassword', component: ForgotpasswordComponent}
+  {path: 'forgetpassword', component: ForgotpasswordComponent},
+  {path: 'doctor', component: DoctornavComponent}
 ];
 
 @NgModule({

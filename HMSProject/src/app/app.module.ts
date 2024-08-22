@@ -10,8 +10,22 @@ import { AppointmentComponent } from './homepage/appointment/appointment.compone
 import { LoginComponent } from './registration/login/login.component';
 import { RegisterComponent } from './registration/register/register.component';
 import { ForgotpasswordComponent } from './registration/forgotpassword/forgotpassword.component';
-import { AdddoctorComponent } from './doctor/adddoctor/adddoctor.component';
-import { EditdoctorComponent } from './doctor/editdoctor/editdoctor.component';
+import { DoctordashboardComponent } from './doctor/doctorsidebar/doctordashboard/doctordashboard.component';
+import { DoctorprofileComponent } from './doctor/doctorsidebar/doctorprofile/doctorprofile.component';
+import { DoctoractivitiesComponent } from './doctor/doctorsidebar/doctoractivities/doctoractivities.component';
+import { DoctornavComponent } from './doctor/doctornav/doctornav.component';
+import { DoctorpatientsComponent } from './doctor/doctorsidebar/doctorpatients/doctorpatients.component';
+import { DoctorappointmentslistComponent } from './doctor/doctorsidebar/doctorappointmentslist/doctorappointmentslist.component';
+import { DoctorsalaryComponent } from './doctor/doctorsidebar/doctoraccount/doctorsalary/doctorsalary.component';
+import { DoctortaxesComponent } from './doctor/doctorsidebar/doctoraccount/doctortaxes/doctortaxes.component';
+import { DoctorprovidentfundComponent } from './doctor/doctorsidebar/doctoraccount/doctorprovidentfund/doctorprovidentfund.component';
+import { DoctorattendanceComponent } from './doctor/doctorsidebar/doctorpayroll/doctorattendance/doctorattendance.component';
+import { DoctorholidaysComponent } from './doctor/doctorsidebar/doctorpayroll/doctorholidays/doctorholidays.component';
+import { DoctorleaveComponent } from './doctor/doctorsidebar/doctorpayroll/doctorleave/doctorleave.component';
+import { DoctorchangepasswordComponent } from './doctor/doctorsidebar/doctorsettings/doctorchangepassword/doctorchangepassword.component';
+import { DoctoreditprofileComponent } from './doctor/doctorsidebar/doctorsettings/doctoreditprofile/doctoreditprofile.component';
+import { CalenderComponent } from './doctor/calender/calender.component';
+import { DoctorhomeComponent } from './doctor/doctorhome/doctorhome.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +37,22 @@ import { EditdoctorComponent } from './doctor/editdoctor/editdoctor.component';
     LoginComponent,
     RegisterComponent,
     ForgotpasswordComponent,
-    AdddoctorComponent,
-    EditdoctorComponent
+    DoctordashboardComponent,
+    DoctorprofileComponent,
+    DoctoractivitiesComponent,
+    DoctornavComponent,
+    DoctorpatientsComponent,
+    DoctorappointmentslistComponent,
+    DoctorsalaryComponent,
+    DoctortaxesComponent,
+    DoctorprovidentfundComponent,
+    DoctorattendanceComponent,
+    DoctorholidaysComponent,
+    DoctorleaveComponent,
+    DoctorchangepasswordComponent,
+    DoctoreditprofileComponent,
+    CalenderComponent,
+    DoctorhomeComponent
   ],
   imports: [
     BrowserModule,
