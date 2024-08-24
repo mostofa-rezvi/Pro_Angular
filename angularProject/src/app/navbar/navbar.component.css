@@ -1,0 +1,145 @@
+.main-wrapper {
+    width: 100%;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.header a {
+    color: #333;
+    text-decoration: none;
+}
+
+#toggle_btn, #mobile_btn {
+    display: none;
+}
+
+.nav.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-link .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    min-width: 250px;
+    z-index: 1000;
+    display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-message {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification-message:last-child {
+    border-bottom: none;
+}
+
+.notification-message .media {
+    display: flex;
+    align-items: center;
+}
+
+.notification-message .media img,
+.notification-message .media .avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.topnav-dropdown-footer {
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.mobile-user-menu {
+    display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #toggle_btn, #mobile_btn {
+        display: block;
+    }
+
+    .mobile-user-menu {
+        display: block;
+    }
+
+    .header-left {
+        flex: 1;
+    }
+
+    .nav.user-menu {
+        display: none;
+    }
+
+    .dropdown-menu {
+        position: static;
+        margin-top: 10px;
+        min-width: auto;
+    }
+}
