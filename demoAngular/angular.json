@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularProject": {
+    "demoAngular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-project",
+            "outputPath": "dist/demo-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -34,24 +34,15 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              },
-              "src/assets"
+              }
             ],
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/bootstrap.min.css",
-              "src/assets/css/font-awesome.min.css",
-              "src/assets/css/style.css",
-              "node_modules/font-awesome/css/font-awesome.min.css"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "src/assets/js/jquery-3.2.1.min.js",
-              "src/assets/js/popper.min.js",
-              "src/assets/js/bootstrap.min.js",
-              "src/assets/js/jquery.slimscroll.js",
-              "src/assets/js/app.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -87,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AngularProject:build:production"
+              "buildTarget": "demoAngular:build:production"
             },
             "development": {
-              "buildTarget": "AngularProject:build:development"
+              "buildTarget": "demoAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -122,6 +113,6 @@
     }
   },
   "cli": {
-    "analytics": "7ad9501a-c3b7-4921-9e6d-52a66b2a6d0e"
+    "analytics": "3288785e-db5b-41e5-be9c-8ef248932ae2"
   }
 }

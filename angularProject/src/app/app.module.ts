@@ -7,6 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ActivitiesComponent } from './dashboard/activities/activities.component';
+import { DoctoraddComponent } from './Doctor/doctoradd/doctoradd.component';
+import { DoctorviewComponent } from './Doctor/doctorview/doctorview.component';
+import { DoctorupdateComponent } from './Doctor/doctorupdate/doctorupdate.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ActivitiesComponent } from './dashboard/activities/activities.component
     NavbarComponent,
     FooterComponent,
     SidebarComponent,
-    ActivitiesComponent
+    ActivitiesComponent,
+    DoctoraddComponent,
+    DoctorviewComponent,
+    DoctorupdateComponent
   ],
   imports: [
     BrowserModule,

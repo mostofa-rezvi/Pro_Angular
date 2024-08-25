@@ -100,5 +100,26 @@
             "wifi": true,
             "laundry": true
         }
+    ],
+    "doctors": [
+        {
+            "id": "12",
+            "fastname": "Mostofa",
+            "lastname": "Rezvi",
+            "username": "m.rezvi",
+            "email": "rezvi@gmail.com",
+            "password": "12345",
+            "confirmpassword": "12345",
+            "dob": "2024-01-01",
+            "gender": false,
+            "address": "Azimpur, Dhaka",
+            "country": "Bangladesh",
+            "province": "Dhaka",
+            "city": "Azimpur",
+            "postalcode": 1215,
+            "phone": "012345678990",
+            "avater": "nothing",
+            "biography": "nothing"
+        }
     ]
 }
