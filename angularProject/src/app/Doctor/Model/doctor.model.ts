@@ -1,7 +1,7 @@
 export class Doctor{
 
     id!: string;
-    fastname!: string;
+    firstname!: string;
     lastname!: string;
     username!: string;
     email!: string;
@@ -11,7 +11,6 @@ export class Doctor{
     gender!: boolean;
     address!: string;
     country!: string;
-    province!: string;
     city!: string;
     postalcode!: number;
     phone!: string;
