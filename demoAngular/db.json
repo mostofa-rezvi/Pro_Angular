@@ -109,18 +109,90 @@
       "availableUnits": "7",
       "wifi": true,
       "laundry": false
-    }
-  ],
-  "doctors": [
+    },
     {
-      "id": "0",
-      "name": "Doctor Name 01",
-      "department": "Surgery",
-      "state": "IL",
-      "photo": "https://angular.io/assets/images/tutorials/faa/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
-      "availableUnits": 4,
+      "id": "bd60",
+      "name": "Dhanmondi",
+      "city": "Dhaka",
+      "state": "Bangladesh",
+      "photo": "https://tfe-bd.sgp1.digitaloceanspaces.com/uploads/1669805478.jpg",
+      "availableUnits": "27",
       "wifi": true,
       "laundry": true
+    },
+    {
+      "id": "df6c",
+      "name": "Dhaka University",
+      "city": "Dhanmondi",
+      "state": "Dhaka",
+      "photo": "https://tfe-bd.sgp1.digitaloceanspaces.com/uploads/1669805478.jpg",
+      "availableUnits": "6",
+      "wifi": true,
+      "laundry": true
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Raju",
+      "email": "raju@gmail.com",
+      "cell": "123456789000",
+      "location": {
+        "id": "bd60",
+        "name": "Dhanmondi",
+        "city": "Dhaka",
+        "state": "Bangladesh",
+        "photo": "https://tfe-bd.sgp1.digitaloceanspaces.com/uploads/1669805478.jpg",
+        "availableUnits": "27",
+        "wifi": true,
+        "laundry": true
+      }
+    },
+    {
+      "id": "2",
+      "name": "Nusrat",
+      "email": "nusrat@gmail.com",
+      "cell": "12345671234",
+      "location": {
+        "id": "d1d0",
+        "name": "Dhaka University",
+        "city": "Dhanmondi",
+        "state": "Dhaka",
+        "photo": "https://blog.rmgoe.org/wp-content/uploads/2022/06/Dhaka-University-Bangladesh-1.jpg",
+        "availableUnits": "7",
+        "wifi": true,
+        "laundry": false
+      }
+    },
+    {
+      "id": "9e28",
+      "name": "Rezvi",
+      "email": "rezvi@gmail.co",
+      "cell": "843423",
+      "location": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "photo": null,
+        "wifi": null,
+        "laundry": null
+      }
+    },
+    {
+      "id": "e9b6",
+      "name": "shabab",
+      "email": "shabab@gmail.com",
+      "cell": "23494390",
+      "location": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "photo": null,
+        "wifi": null,
+        "laundry": null
+      }
     }
   ]
 }
