@@ -14,7 +14,7 @@
             <div class="col-md-4 col-sm-4  col-lg-3" *ngFor="let doctor of doctors | async">
                 <div class="profile-widget">
                     <div class="doctor-img">
-                        <a class="avatar" href="/doctorprofile"><img alt="" src="">{{doctor.avater}}</a>
+                        <a class="avatar" href="/doctorprofile"><img [src]="doctor.photo" alt="{{doctor.name}}">{{doctor.avater}}</a>
                     </div>
                     <div class="dropdown profile-action">
                         <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i

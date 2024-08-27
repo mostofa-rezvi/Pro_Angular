@@ -34,10 +34,11 @@ export class StudentaddComponent implements OnInit {
       cell: [''],
       location: this.formBuilder.group({
         id: [undefined],
-        name: [undefined],
+        name: [undefined,],
         city: [undefined],
         state: [undefined],
         photo: [undefined],
+        availableUnits: [undefined],
         wifi: [undefined],
         laundry: [undefined]
       })

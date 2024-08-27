@@ -20,7 +20,7 @@
             <div class="mb-3" formGroupName="location">
                 <label for="location" class="form-label">Location</label>
                 <select id="location" formControlName="location" class="form-select">
-                    <option *ngFor="let location of locations" [ngValue]="location.name">{{location.name}}</option>
+                    <option *ngFor="let location of locations" [ngValue]="location">{{location.name}}</option>
                 </select>
                 <div class="invalid-feedback">Please select a Location</div>
             </div>

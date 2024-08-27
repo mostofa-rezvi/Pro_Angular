@@ -58,16 +58,18 @@
                                 <label class="gen-label">Gender:</label>
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                                        <input type="radio" name="gender" class="form-check-input" formControlName="gender" value="Male"> Male
+                                        <input type="radio" name="gender" class="form-check-input"
+                                            formControlName="gender" value="Male"> Male
                                     </label>
                                 </div>
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                                        <input type="radio" name="gender" class="form-check-input" formControlName="gender" value="Female"> Female
+                                        <input type="radio" name="gender" class="form-check-input"
+                                            formControlName="gender" value="Female"> Female
                                     </label>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                         <div class="col-sm-12">
                             <div class="row">
                                 <div class="col-sm-12">
@@ -76,7 +78,13 @@
                                         <input type="text" class="form-control" formControlName="address">
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-md-6 col-lg-4">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>Phone </label>
+                                        <input class="form-control" type="text" formControlName="phone">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label>Country</label>
                                         <select class="form-control select" formControlName="country">
@@ -86,13 +94,13 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-md-6 col-lg-4">
+                                <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label>City</label>
                                         <input type="text" class="form-control" formControlName="city">
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-md-6 col-lg-4">
+                                <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label>Postal Code</label>
                                         <input type="text" class="form-control" formControlName="postalcode">
@@ -100,21 +108,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <div class="form-group">
-                                <label>Phone </label>
-                                <input class="form-control" type="text" formControlName="phone">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Avatar</label>
+                                <label>Photo</label>
                                 <div class="profile-upload">
                                     <div class="upload-img">
                                         <img alt="" src="assets/img/user.jpg">
                                     </div>
                                     <div class="upload-input">
-                                        <input type="file" class="form-control" formControlName="avater">
+                                        <input type="text" class="form-control" formControlName="avatar">
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +127,7 @@
                         <input type="text" class="form-control" formControlName="biography">
                         <!-- <textarea class="form-control" rows="3" cols="30" formControlName="biography"></textarea> -->
                     </div>
-                    
+
                     <div class="m-t-20 text-center">
                         <button type="submit" class="btn btn-primary" (click)="doctorAdd()">Add Doctor</button>
                     </div>

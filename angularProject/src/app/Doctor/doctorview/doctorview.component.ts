@@ -35,4 +35,8 @@ export class DoctorviewComponent implements OnInit{
         }
       });
   }
+
+  doctorUpdate(id: string){
+    this.router.navigate(['doctorupdate', id]);
+  }
 }

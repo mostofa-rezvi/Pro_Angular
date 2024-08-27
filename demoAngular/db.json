@@ -189,6 +189,7 @@
         "city": null,
         "state": null,
         "photo": null,
+        "availableUnits": "27",
         "wifi": null,
         "laundry": null
       }
@@ -204,6 +205,7 @@
         "city": null,
         "state": null,
         "photo": null,
+        "availableUnits": "77",
         "wifi": null,
         "laundry": null
       }

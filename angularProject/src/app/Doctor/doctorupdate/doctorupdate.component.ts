@@ -41,7 +41,7 @@ export class DoctorupdateComponent implements OnInit{
     this.doctorService.doctorUpdate(this.id, this.doctor)
       .subscribe({
         next: res => {
-          this.doctor = new Doctor();
+          // this.doctor = new Doctor();
           this.router.navigate(['doctorview']);
         },
         error: error => {
