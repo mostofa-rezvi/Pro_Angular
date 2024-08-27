@@ -15,6 +15,8 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
 import { StudentviewComponent } from './Student/studentview/studentview.component';
 import { StudentupdateComponent } from './Student/studentupdate/studentupdate.component';
 import { StudentaddComponent } from './Student/studentadd/studentadd.component';
+import { LoginComponent } from './Home/login/login.component';
+import { RegistrationComponent } from './Home/registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { StudentaddComponent } from './Student/studentadd/studentadd.component';
     LocationupdateComponent,
     StudentviewComponent,
     StudentupdateComponent,
-    StudentaddComponent
+    StudentaddComponent,
+    LoginComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,

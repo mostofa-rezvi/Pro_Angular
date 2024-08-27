@@ -7,6 +7,8 @@ import { LocationupdateComponent } from './Location/locationupdate/locationupdat
 import { StudentviewComponent } from './Student/studentview/studentview.component';
 import { StudentaddComponent } from './Student/studentadd/studentadd.component';
 import { StudentupdateComponent } from './Student/studentupdate/studentupdate.component';
+import { RegistrationComponent } from './Home/registration/registration.component';
+import { LoginComponent } from './Home/login/login.component';
 
 
 const routes: Routes = [
@@ -16,7 +18,9 @@ const routes: Routes = [
   {path: 'locationupdate/:id', component: LocationupdateComponent},
   {path: 'studentview', component: StudentviewComponent},
   {path: 'studentadd', component: StudentaddComponent},
-  {path: 'studentupdate/:id', component: StudentupdateComponent}
+  {path: 'studentupdate/:id', component: StudentupdateComponent},
+  {path: 'registration', component: RegistrationComponent},
+  {path: 'login', component: LoginComponent}
 ];
 
 @NgModule({
