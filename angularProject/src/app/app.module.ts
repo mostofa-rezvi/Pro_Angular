@@ -22,6 +22,19 @@ import { AppointmenthomeComponent } from './HomePage/appointmenthome/appointment
 import { BodyhomeComponent } from './HomePage/bodyhome/bodyhome.component';
 import { FooterhomeComponent } from './HomePage/footerhome/footerhome.component';
 import { NavbarhomeComponent } from './HomePage/navbarhome/navbarhome.component';
+import { SalarysettingsComponent } from './Admin/Settings/salarysettings/salarysettings.component';
+import { LeavetypeComponent } from './Admin/Settings/leavetype/leavetype.component';
+import { ChngpassComponent } from './Admin/Settings/chngpass/chngpass.component';
+import { AdminpayrollComponent } from './Admin/adminpayroll/adminpayroll.component';
+import { ViewdepartmentComponent } from './Admin/Department/viewdepartment/viewdepartment.component';
+import { AdddepartmentComponent } from './Admin/Department/adddepartment/adddepartment.component';
+import { UpdatedepartmentComponent } from './Admin/Department/updatedepartment/updatedepartment.component';
+import { ViewReceptionistComponent } from './Admin/Receptionist/viewreceptionist/viewreceptionist.component';
+import { UpdateReceptionistComponent } from './Admin/Receptionist/updatereceptionist/updatereceptionist.component';
+import { AddReceptionistComponent } from './Admin/Receptionist/addreceptionist/addreceptionist.component';
+import { MyprofileComponent } from './Admin/Profile/myprofile/myprofile.component';
+import { EditprofileComponent } from './Admin/Profile/editprofile/editprofile.component';
+import { AdmindashboardComponent } from './dashboard/admindashboard/admindashboard.component';
 
 @NgModule({
   declarations: [
@@ -43,10 +56,24 @@ import { NavbarhomeComponent } from './HomePage/navbarhome/navbarhome.component'
     BodyhomeComponent,
     FooterhomeComponent,
     NavbarhomeComponent,
+    SalarysettingsComponent,
+    LeavetypeComponent,
+    ChngpassComponent,
+    AdminpayrollComponent,
+    ViewdepartmentComponent,
+    AdddepartmentComponent,
+    UpdatedepartmentComponent,
+    ViewReceptionistComponent,
+    UpdateReceptionistComponent,
+    AddReceptionistComponent,
+    MyprofileComponent,
+    EditprofileComponent,
+    AdmindashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule

@@ -132,5 +132,28 @@
       "gender": true,
       "dob": "2024-07-31"
     }
+  ],
+  "departments": [
+    {
+      "id": "45ca",
+      "name": "Mostofa Blannk",
+      "headOfDepartment": "dfsgs",
+      "location": "sdfgdfg",
+      "phone": "0987",
+      "email": "rezvi@gmail.com",
+      "numberOfDoctors": "34543",
+      "numberOfNurses": "3454"
+    }
+  ],
+  "receptionists": [
+    {
+      "id": "b1a7",
+      "name": "Rezvi",
+      "phone": "0987",
+      "email": "rblannk@gmail.com",
+      "gender": "true",
+      "shift": "sadasd",
+      "status": "sadsadsd"
+    }
   ]
 }
