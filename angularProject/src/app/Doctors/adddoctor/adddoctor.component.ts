@@ -9,12 +9,10 @@ import { Router } from '@angular/router';
   styleUrl: './adddoctor.component.css'
 })
 export class AdddoctorComponent {
+  
   doctor: DoctorModel = new DoctorModel();
 
-  constructor(
-    private doctorService: DoctorService, 
-    private router: Router
-  ) {}
+  constructor(private doctorService: DoctorService, private router: Router) { }
 
   addDoctor(): void {
     this.doctorService.addDoctor(this.doctor).subscribe(() => {

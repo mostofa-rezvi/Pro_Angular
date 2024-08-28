@@ -20,10 +20,13 @@ const routes: Routes = [
   {path: 'addnurse', component: AddnurseComponent},
   {path: 'viewnurse', component: ViewnurseComponent},
   {path: 'updatenurse/:id', component: UpdatenurseComponent},
+  // {path: '', redirectTo: '/viewnurse', pathMatch: 'full'},
 
   {path: 'adddoctor', component: AdddoctorComponent},
   {path: 'viewdoctor', component: ViewdoctorComponent},
   {path: 'updatedoctor/:id', component: UpdatedoctorComponent},
+  // { path: '', redirectTo: '/viewdoctor', pathMatch: 'full' },
+  // { path: '**', redirectTo: '/viewdoctor' },
 
   {path: 'home', component: BodyhomeComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -34,7 +37,7 @@ const routes: Routes = [
   {path: 'forgetpassword', component: ForgotpasswordComponent}
 
   
-  // {path: '', redirectTo: '/viewnurse', pathMatch: 'full'}
+
 ];
 
 @NgModule({

@@ -9,20 +9,25 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrl: './viewdoctor.component.css'
 })
 export class ViewdoctorComponent implements OnInit {
-  doctor!: DoctorModel;
+  doctors: DoctorModel[] = [];
 
-  constructor(
-    private doctorService: DoctorService,
-    private route: ActivatedRoute,
+  constructor(private doctorService: DoctorService,
     private router: Router
   ) { }
 
-  ngOnInit() {
-    const id = this.route.snapshot.paramMap.get('id')!;
-    this.doctorService.getDoctor(id).subscribe(doctor => this.doctor = doctor);
+  ngOnInit(): void {
+    this.doctorService.getDoctors().subscribe(data => {
+      this.doctors = data;
+    });
   }
 
-  editDoctor() {
-    this.router.navigate(['/editdoctor', this.doctor.id]);
+  deleteDoctor(id: string): void {
+    this.doctorService.deleteDoctor(id).subscribe(() => {
+      this.doctors = this.doctors.filter(doctor => doctor.id !== id);
+    });
+  }
+
+  updatedoctor(id: string){
+    this.router.navigate(['updatedoctor/' + id]);
   }
 }

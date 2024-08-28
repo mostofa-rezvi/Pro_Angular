@@ -1,0 +1,10 @@
+watch this addnurse.componet.html code now I will you more code.
+-
+watch this addnurse.componet.css code now, I will give you more code.
+-
+adddoctor.component.html: 
+<>
+adddoctor.component.css:
+<>
+
+now convert this adddoctor html and css code to pervious addnurse html and css code 

@@ -8,21 +8,25 @@ import { ActivatedRoute, Router } from '@angular/router';
   templateUrl: './updatedoctor.component.html',
   styleUrl: './updatedoctor.component.css'
 })
-export class UpdatedoctorComponent  implements OnInit {
-  doctor!: DoctorModel;
+export class UpdatedoctorComponent implements OnInit {
+  doctor: DoctorModel = new DoctorModel();
 
   constructor(
-    private doctorService: DoctorService,
     private route: ActivatedRoute,
+    private doctorService: DoctorService,
     private router: Router
   ) { }
 
-  ngOnInit() {
-    const id = this.route.snapshot.paramMap.get('id')!;
-    this.doctorService.getDoctor(id).subscribe(doctor => this.doctor = doctor);
+  ngOnInit(): void {
+    const id = this.route.snapshot.paramMap.get('id');
+    if (id) {
+      this.doctorService.getDoctor(id).subscribe(data => {
+        this.doctor = data;
+      });
+    }
   }
 
-  onSubmit() {
+  updateDoctor(): void {
     this.doctorService.updateDoctor(this.doctor).subscribe(() => {
       this.router.navigate(['/viewdoctor']);
     });
