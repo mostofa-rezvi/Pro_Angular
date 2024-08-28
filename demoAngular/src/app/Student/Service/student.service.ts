@@ -23,7 +23,7 @@ export class StudentService {
   }
 
   studentDelete(id: string): Observable<any>{
-    return this.httpClient.delete<any>(this.baseUrl + "/" + id);
+    return this.httpClient.delete<any>(`${this.baseUrl}${id}`);
 
     // Observable<void>
     // return this.httpClient.delete<void>(`${this.baseUrl}${id}`);
@@ -31,11 +31,11 @@ export class StudentService {
   }
 
   getStudentById(id: string): Observable<Student>{
-    const url = this.baseUrl + "/" + id;
+    const url = `${this.baseUrl}${id}`;
     return this.httpClient.get<Student>(url);
   }
 
   studentUpdate(student: Student): Observable<Student>{
-    return this.httpClient.put<Student>(this.baseUrl + "/" + student.id, student);
+    return this.httpClient.put<Student>(`${this.baseUrl}${student.id}`, student);
   }
 }

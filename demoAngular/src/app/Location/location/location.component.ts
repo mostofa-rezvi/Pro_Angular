@@ -29,7 +29,7 @@ export class LocationComponent implements OnInit{
     .subscribe({
       next: res => {
         this.locations = this.locationService.getAllLocation();
-        // this.router.navigate(['/location']);
+        this.router.navigate(['location']);
       },
       error: error => {
         console.log(error);
@@ -38,6 +38,6 @@ export class LocationComponent implements OnInit{
   }
 
   locationUpdate(id: string){
-    this.router.navigate(['locationupdate/' + id]);
+    this.router.navigate(['locationupdate', id]);
   }
 }

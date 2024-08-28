@@ -34,11 +34,16 @@ export class AuthService {
       map(users => {
         if (users.length > 0) {
           const user = users[0];
-          const token = btoa(`${user.email}:${user.password}`);
-          return { token, user } as Authresponse;
+          if(user.password === credentials.password){
+            const token = btoa(`${user.email}:${user.password}`);
+            return { token, user } as Authresponse;
+          }
+          else{
+            throw new Error('Invalid Password');
+          }
         }
         else {
-          throw new Error('Invalid Credentials');
+          throw new Error('User not found');
         }
       })
     )
