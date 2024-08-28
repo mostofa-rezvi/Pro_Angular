@@ -172,5 +172,21 @@
       "avater": "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
       "biography": "ok"
     }
+  ],
+  "nurses": [
+    {
+      "id": "494f",
+      "employeeid": "1234",
+      "firstname": "raju",
+      "lastname": "Ahmed",
+      "email": "raju55@gmail.com",
+      "phone": "`123456",
+      "address": "Azompur",
+      "photo": "okay",
+      "specialization": "humn",
+      "department": "hmm",
+      "gender": true,
+      "dob": "2024-07-31"
+    }
   ]
 }
