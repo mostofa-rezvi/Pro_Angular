@@ -25,3 +25,27 @@
     - doctorprofile
     - doctorsettings
     - doctorlogout
+
+npm install --save @fortawesome/fontawesome-free
+npm install -g npm@10.8.2
+
+
+
+I need hospital management system project in angular with json server where an doctor, the model is this: export class DoctorModel{
+
+    id!: string;
+    drid!: number;
+    firstname!: string;
+    lastname!: string;
+    email!: string;
+    phone!: string;
+    address!: string;
+    dob!: string;
+    gender!: boolean;
+    photo!: string;
+    specialization!: string;
+    department!: string;
+
+}
+
+Show me all step by step doctor service, add doctor component, complete html and complete css UI, view doctor comoponent, complete html and complete css UI, update doctor component, complete html and complete css UI

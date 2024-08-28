@@ -6,12 +6,22 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ActivitiesComponent } from './dashboard/activities/activities.component';
-import { DoctoraddComponent } from './Doctor/doctoradd/doctoradd.component';
-import { DoctorviewComponent } from './Doctor/doctorview/doctorview.component';
-import { DoctorupdateComponent } from './Doctor/doctorupdate/doctorupdate.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { provideHttpClient, withFetch } from '@angular/common/http';
-import { DoctorprofileComponent } from './Doctor/doctorprofile/doctorprofile.component';
+import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
+import { AddnurseComponent } from './Nurse/addnurse/addnurse.component';
+import { ViewnurseComponent } from './Nurse/viewnurse/viewnurse.component';
+import { UpdatenurseComponent } from './Nurse/updatenurse/updatenurse.component';
+import { DeletenurseComponent } from './Nurse/deletenurse/deletenurse.component';
+import { AdddoctorComponent } from './Doctors/adddoctor/adddoctor.component';
+import { ViewdoctorComponent } from './Doctors/viewdoctor/viewdoctor.component';
+import { UpdatedoctorComponent } from './Doctors/updatedoctor/updatedoctor.component';
+import { ForgotpasswordComponent } from './Registration/forgotpassword/forgotpassword.component';
+import { LoginComponent } from './Registration/login/login.component';
+import { RegisterComponent } from './Registration/register/register.component';
+import { AppointmenthomeComponent } from './HomePage/appointmenthome/appointmenthome.component';
+import { BodyhomeComponent } from './HomePage/bodyhome/bodyhome.component';
+import { FooterhomeComponent } from './HomePage/footerhome/footerhome.component';
+import { NavbarhomeComponent } from './HomePage/navbarhome/navbarhome.component';
 
 @NgModule({
   declarations: [
@@ -19,16 +29,27 @@ import { DoctorprofileComponent } from './Doctor/doctorprofile/doctorprofile.com
     NavbarComponent,
     SidebarComponent,
     ActivitiesComponent,
-    DoctoraddComponent,
-    DoctorviewComponent,
-    DoctorupdateComponent,
-    DoctorprofileComponent
+    AddnurseComponent,
+    ViewnurseComponent,
+    UpdatenurseComponent,
+    DeletenurseComponent,
+    AdddoctorComponent,
+    ViewdoctorComponent,
+    UpdatedoctorComponent,
+    ForgotpasswordComponent,
+    LoginComponent,
+    RegisterComponent,
+    AppointmenthomeComponent,
+    BodyhomeComponent,
+    FooterhomeComponent,
+    NavbarhomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration(),

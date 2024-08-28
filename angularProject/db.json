@@ -1,7 +1,7 @@
 {
   "locations": [
     {
-      "id": 0,
+      "id": "0",
       "name": "Acme Fresh Start Housing",
       "city": "Chicago",
       "state": "IL",
@@ -11,7 +11,7 @@
       "laundry": true
     },
     {
-      "id": 1,
+      "id": "1",
       "name": "A113 Transitional Housing",
       "city": "Santa Monica",
       "state": "CA",
@@ -21,7 +21,7 @@
       "laundry": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Warm Beds Housing Support",
       "city": "Juneau",
       "state": "AK",
@@ -31,7 +31,7 @@
       "laundry": false
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Homesteady Housing",
       "city": "Chicago",
       "state": "IL",
@@ -41,7 +41,7 @@
       "laundry": false
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Happy Homes Group",
       "city": "Gary",
       "state": "IN",
@@ -51,7 +51,7 @@
       "laundry": false
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Hopeful Apartment Group",
       "city": "Oakland",
       "state": "CA",
@@ -61,7 +61,7 @@
       "laundry": true
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Seriously Safe Towns",
       "city": "Oakland",
       "state": "CA",
@@ -71,7 +71,7 @@
       "laundry": true
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Hopeful Housing Solutions",
       "city": "Oakland",
       "state": "CA",
@@ -81,7 +81,7 @@
       "laundry": true
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Seriously Safe Towns",
       "city": "Oakland",
       "state": "CA",
@@ -91,7 +91,7 @@
       "laundry": false
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Capital Safe Towns",
       "city": "Portland",
       "state": "OR",
@@ -101,76 +101,49 @@
       "laundry": true
     }
   ],
-  "doctors": [
+  "nurses": [
     {
-      "id": "12",
+      "id": "203d",
+      "employeeid": "123",
+      "firstname": "rezvi",
+      "lastname": "mostofa",
+      "email": "mostofa@gmail.com",
+      "phone": "0987654321",
+      "address": "East Adalot Para,",
+      "dob": "2024-08-15",
+      "gender": true,
+      "photo": "okay",
+      "specialization": "Medicinine O",
+      "department": "Medicinine E"
+    },
+    {
+      "id": "1b81",
+      "employeeid": "124",
+      "firstname": "rezvi",
+      "lastname": "mostofa",
+      "email": "re6@nd.com",
+      "phone": "0987",
+      "address": "Tangail",
+      "dob": "2024-08-03",
+      "photo": "okay",
+      "gender": true,
+      "specialization": "MedicinineA",
+      "department": "Medicinine H"
+    },
+    {
+      "id": "aab8",
+      "department": "Medicinine E",
+      "specialization": "Medicinine O",
+      "photo": "okay",
+      "gender": true,
+      "dob": "2024-08-03",
+      "address": "Tangail.",
+      "phone": "0987",
+      "email": "rblannk@gmail.com",
+      "lastname": "rezvi",
       "firstname": "Mostofa",
-      "lastname": "Rezvi",
-      "username": "m.rezvi",
-      "email": "rezvi@gmail.com",
-      "password": "12345",
-      "confirmpassword": "12345",
-      "dob": "2024-01-01",
-      "gender": false,
-      "address": "Azimpur, Dhaka",
-      "country": "Bangladesh",
-      "city": "Azimpur",
-      "postalcode": 1215,
-      "phone": "012345678990",
-      "avater": "nothing",
-      "biography": "nothing"
-    },
-    {
-      "id": "e9ee",
-      "firstname": "Raju",
-      "lastname": "Ahmed",
-      "username": "Raju",
-      "email": "raju@gmail.com",
-      "password": "1234",
-      "confirmpassword": "1234",
-      "dob": "2024-08-01",
-      "address": "Azimpur, Lalbadh, Dhaka",
-      "country": "Bangladesh",
-      "city": "Dhaka",
-      "postalcode": "1215",
-      "phone": "1234567890",
-      "avater": "C:\\fakepath\\price-1.jpg",
-      "biography": "Okay"
-    },
-    {
-      "id": "9166",
-      "firstname": "Raju",
-      "lastname": "Ahmed",
-      "username": "Raju",
-      "email": "raju@gmail.com",
-      "password": "1234",
-      "confirmpassword": "1234",
-      "dob": "2024-08-02",
-      "address": "Azimpur, Lalbadh, Dhaka",
-      "country": "Bangladesh",
-      "city": "Dhaka",
-      "postalcode": "1215",
-      "phone": "1234567890",
-      "avater": "C:\\fakepath\\doctor-03.jpg",
-      "biography": "HMM"
-    },
-    {
-      "id": "abfa",
-      "firstname": "",
-      "lastname": "",
-      "username": "",
-      "email": "",
-      "password": "",
-      "confirmpassword": "",
-      "dob": "",
-      "gender": "",
-      "address": "",
-      "country": "",
-      "city": "",
-      "postalcode": "",
-      "phone": "",
-      "avater": "",
-      "biography": ""
+      "employeeid": "1234"
     }
-  ]
+  ],
+  "doctors": []
 }
