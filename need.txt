@@ -8,3 +8,6 @@ adddoctor.component.css:
 <>
 
 now convert this adddoctor html and css code to pervious addnurse html and css code 
+
+
+750*380px
