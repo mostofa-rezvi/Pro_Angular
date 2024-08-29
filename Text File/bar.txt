@@ -1,0 +1,49 @@
+angular with json server project, do viewdoctor.component.html view with search bar with css
+
+<div class="doctor-container">
+  <input
+    type="text"
+    placeholder="Search doctors..."
+    [(ngModel)]="searchTerm"
+    (ngModelChange)="filterDoctors()"
+    class="search-bar"
+  />
+  
+  <ul class="doctor-list">
+    <li *ngFor="let doctor of filteredDoctors">
+      {{ doctor.name }} - {{ doctor.specialty }}
+    </li>
+  </ul>
+</div>
+
+
+component.ts:
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+@Component({
+  selector: 'app-viewdoctor',
+  templateUrl: './viewdoctor.component.html',
+  styleUrls: ['./viewdoctor.component.css']
+})
+export class ViewDoctorComponent implements OnInit {
+  doctors: any[] = [];
+  filteredDoctors: any[] = [];
+  searchTerm: string = '';
+
+  constructor(private http: HttpClient) {}
+
+  ngOnInit(): void {
+    this.http.get<any[]>('http://localhost:3000/doctors').subscribe(data => {
+      this.doctors = data;
+      this.filteredDoctors = data;
+    });
+  }
+
+  filterDoctors(): void {
+    this.filteredDoctors = this.doctors.filter(doctor =>
+      doctor.name.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
+      doctor.specialty.toLowerCase().includes(this.searchTerm.toLowerCase())
+    );
+  }
+}
