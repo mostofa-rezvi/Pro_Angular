@@ -156,7 +156,7 @@
       "status": "sadsadsd"
     }
   ],
-  "profile": [
+  "profile":
     {
       "name": "John Doe M",
       "specialization": "Cardiology",
@@ -182,8 +182,7 @@
           "endDate": "Present"
         }
       ]
-    }
-  ],
+    },
   "activitiesdoc": [],
   "appointmentdoc": [],
   "dashboarddoc": [],
