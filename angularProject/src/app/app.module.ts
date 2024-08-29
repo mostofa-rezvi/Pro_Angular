@@ -35,6 +35,8 @@ import { AddReceptionistComponent } from './Admin/Receptionist/addreceptionist/a
 import { MyprofileComponent } from './Admin/Profile/myprofile/myprofile.component';
 import { EditprofileComponent } from './Admin/Profile/editprofile/editprofile.component';
 import { AdmindashboardComponent } from './dashboard/admindashboard/admindashboard.component';
+import { DepartmenthomeComponent } from './HomePage/departmenthome/departmenthome.component';
+import { DoctorshomeComponent } from './HomePage/DoctorsDepartment/doctorshome/doctorshome.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { AdmindashboardComponent } from './dashboard/admindashboard/admindashboa
     AddReceptionistComponent,
     MyprofileComponent,
     EditprofileComponent,
-    AdmindashboardComponent
+    AdmindashboardComponent,
+    DepartmenthomeComponent,
+    DoctorshomeComponent
   ],
   imports: [
     BrowserModule,

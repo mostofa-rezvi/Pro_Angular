@@ -25,6 +25,7 @@ import { AddReceptionistComponent } from './Admin/Receptionist/addreceptionist/a
 import { MyprofileComponent } from './Admin/Profile/myprofile/myprofile.component';
 import { AdmindashboardComponent } from './dashboard/admindashboard/admindashboard.component';
 import { EditprofileComponent } from './Admin/Profile/editprofile/editprofile.component';
+import { DepartmenthomeComponent } from './HomePage/departmenthome/departmenthome.component';
 // import { flush } from '@angular/core/testing';
 
 const routes: Routes = [
@@ -37,6 +38,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'forgetpassword', component: ForgotpasswordComponent},
+  {path: 'departmenthome', component: DepartmenthomeComponent},
 
   // Admin > Nurse Crud
   {path: 'addnurse', component: AddnurseComponent},
