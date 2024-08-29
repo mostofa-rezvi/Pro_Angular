@@ -156,30 +156,41 @@
       "status": "sadsadsd"
     }
   ],
-  "profile": {
-    "name": "John Doe M",
-    "specialization": "Cardiology",
-    "phone": "123-456-7890",
-    "email": "john.doe@example.com",
-    "birthday": "1980-01-01",
-    "address": "123 Main St, City, Country",
-    "gender": "Male",
-    "avatar": "https://example.com/avatar.jpg",
-    "employeeId": "EMP0012",
-    "education": [
-      {
-        "institution": "Medical University",
-        "degree": "MD",
-        "startYear": "2000",
-        "endYear": "2004"
-      }
-    ],
-    "experience": [
-      {
-        "position": "Senior Doctor",
-        "startDate": "2005-01-01",
-        "endDate": "Present"
-      }
-    ]
-  }
+  "profile": [
+    {
+      "name": "John Doe M",
+      "specialization": "Cardiology",
+      "phone": "123-456-7890",
+      "email": "john.doe@example.com",
+      "birthday": "1980-01-01",
+      "address": "123 Main St, City, Country",
+      "gender": "Male",
+      "avatar": "https://example.com/avatar.jpg",
+      "employeeId": "EMP0012",
+      "education": [
+        {
+          "institution": "Medical University",
+          "degree": "MD",
+          "startYear": "2000",
+          "endYear": "2004"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Senior Doctor",
+          "startDate": "2005-01-01",
+          "endDate": "Present"
+        }
+      ]
+    }
+  ],
+  "activitiesdoc": [],
+  "appointmentdoc": [],
+  "dashboarddoc": [],
+  "patientsdoc": [],
+  "payrolldoc": [],
+  "profiledoc": [],
+  "reportdoc": [],
+  "settingsdoc": []
+
 }

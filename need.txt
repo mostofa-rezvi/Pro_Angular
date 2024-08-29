@@ -11,3 +11,21 @@ now convert this adddoctor html and css code to pervious addnurse html and css c
 
 
 750*380px
+
+https://www.youtube.com/watch?v=x-dJMdMREYg
+
+
+I work in hospital management system project, now I need help in component relationship. 
+Dcotor can edit, add, view, delete appointment component.
+Doctor appointment model is: 
+export class AppointmentDocModel {
+  id!: number;
+  patientId!: number;
+  patientName!: string;
+  doctorId!: number;
+  appointmentDate!: string;
+  reason!: string;
+  status!: string;
+}
+
+Now I need same crud part for nurse, receptionist, and patient can do only add, view appointment. 
