@@ -4,19 +4,22 @@
       "id": "1",
       "name": "Raju Ahmed",
       "email": "raju@gmail.com",
-      "password": "1234"
+      "password": "1234",
+      "role": "User"
     },
     {
       "id": "68f1",
       "name": "Rezvi ",
       "email": "rezvi@gmail.com",
-      "password": "123456"
+      "password": "12345",
+      "role": "Admin"
     },
     {
-      "id": "54b4",
-      "name": "rezvi@gmail.com",
-      "email": "rezvi@gmail.com",
-      "password": "12345"
+      "id": "b588",
+      "name": "Nusrat Jahan",
+      "email": "nusrat@gmail.com",
+      "password": "123456",
+      "role": "User"
     }
   ],
   "locations": [

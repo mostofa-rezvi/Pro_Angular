@@ -17,6 +17,9 @@ import { StudentupdateComponent } from './Student/studentupdate/studentupdate.co
 import { StudentaddComponent } from './Student/studentadd/studentadd.component';
 import { LoginComponent } from './Home/login/login.component';
 import { RegistrationComponent } from './Home/registration/registration.component';
+import { LogoutComponent } from './Home/logout/logout.component';
+import { UserprofileComponent } from './Home/userprofile/userprofile.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -32,13 +35,17 @@ import { RegistrationComponent } from './Home/registration/registration.componen
     StudentupdateComponent,
     StudentaddComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    LogoutComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [
     provideClientHydration(),

@@ -27,55 +27,72 @@ import { AdmindashboardComponent } from './dashboard/admindashboard/admindashboa
 import { EditprofileComponent } from './Admin/Profile/editprofile/editprofile.component';
 import { DepartmenthomeComponent } from './HomePage/departmenthome/departmenthome.component';
 import { DoctorshomeComponent } from './HomePage/DoctorsDepartment/doctorshome/doctorshome.component';
+import { MyprofiledocComponent } from './DoctorDashBoard/DoctorProfile/myprofiledoc/myprofiledoc.component';
+import { EditprofiledocComponent } from './DoctorDashBoard/DoctorProfile/editprofiledoc/editprofiledoc.component';
+import { MyprofilenrsComponent } from './NurseDashBoard/NurseProfile/myprofilenrs/myprofilenrs.component';
+import { EditprofilenrsComponent } from './NurseDashBoard/NurseProfile/editprofilenrs/editprofilenrs.component';
+import { MyprofilepntComponent } from './PatientDashBoard/PatientProfile/myprofilepnt/myprofilepnt.component';
+import { EditprofilepntComponent } from './PatientDashBoard/PatientProfile/editprofilepnt/editprofilepnt.component';
+import { MyprofilerecepComponent } from './ReceptionistDashBoard/ReceptionistProfile/myprofilerecep/myprofilerecep.component';
+import { EditprofilerecepComponent } from './ReceptionistDashBoard/ReceptionistProfile/editprofilerecep/editprofilerecep.component';
 // import { flush } from '@angular/core/testing';
 
 const routes: Routes = [
-  {path: 'activities', component: ActivitiesComponent},
+  { path: 'activities', component: ActivitiesComponent },
 
   // Home or Landing Page
-  {path: 'home', component: BodyhomeComponent},
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: 'appointment', component: AppointmenthomeComponent},
-  {path: 'login', component: LoginComponent},
-  {path: 'register', component: RegisterComponent},
-  {path: 'forgetpassword', component: ForgotpasswordComponent},
-  {path: 'departmenthome', component: DepartmenthomeComponent},
-  {path: 'doctorshome', component: DoctorshomeComponent},
+  { path: 'home', component: BodyhomeComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'appointment', component: AppointmenthomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'forgetpassword', component: ForgotpasswordComponent },
+  { path: 'departmenthome', component: DepartmenthomeComponent },
+  { path: 'doctorshome', component: DoctorshomeComponent },
 
-  // Admin > Nurse Crud
-  {path: 'addnurse', component: AddnurseComponent},
-  {path: 'viewnurse', component: ViewnurseComponent},
-  {path: 'updatenurse/:id', component: UpdatenurseComponent},
-  // {path: '', redirectTo: '/viewnurse', pathMatch: 'full'},
-
+  // Admin > Profile
+  { path: 'adminprofile', component: MyprofileComponent },
+  { path: 'admindashboard', component: AdmindashboardComponent },
+  { path: 'adminprofileedit', component: EditprofileComponent },
   // Adim > Doctor Crud
-  {path: 'adddoctor', component: AdddoctorComponent},
-  {path: 'viewdoctor', component: ViewdoctorComponent},
-  {path: 'updatedoctor/:id', component: UpdatedoctorComponent},
-  // { path: '', redirectTo: '/viewdoctor', pathMatch: 'full' },
-  // { path: '**', redirectTo: '/viewdoctor' },
-
-  // Admin > Other Component
-  {path: 'adminsalary', component: SalarysettingsComponent},
-  {path: 'adminleave', component: LeavetypeComponent},
-  {path: 'adminpass', component: ChngpassComponent},
-  {path: 'adminpayroll', component: AdminpayrollComponent},
-
-  // Admin > Department Crud
-  {path: 'viewdepartment', component: ViewdepartmentComponent},
-  {path: 'updatedepartment/:id', component: UpdatedepartmentComponent},
-  {path: 'adddepartment', component: AdddepartmentComponent},
-
+  { path: 'adddoctor', component: AdddoctorComponent },
+  { path: 'viewdoctor', component: ViewdoctorComponent },
+  { path: 'updatedoctor/:id', component: UpdatedoctorComponent },
+  // Admin > Nurse Crud
+  { path: 'addnurse', component: AddnurseComponent },
+  { path: 'viewnurse', component: ViewnurseComponent },
+  { path: 'updatenurse/:id', component: UpdatenurseComponent },
   // Admin > Receptionist Curd
-  {path: 'viewrecep', component: ViewReceptionistComponent},
-  {path: 'updaterecep/:id', component: UpdateReceptionistComponent},
-  {path: 'addrecep', component: AddReceptionistComponent},
+  { path: 'viewrecep', component: ViewReceptionistComponent },
+  { path: 'updaterecep/:id', component: UpdateReceptionistComponent },
+  { path: 'addrecep', component: AddReceptionistComponent },
+  // Admin > Department Crud
+  { path: 'viewdepartment', component: ViewdepartmentComponent },
+  { path: 'updatedepartment/:id', component: UpdatedepartmentComponent },
+  { path: 'adddepartment', component: AdddepartmentComponent },
+  // Admin > Other Component
+  { path: 'adminsalary', component: SalarysettingsComponent },
+  { path: 'adminleave', component: LeavetypeComponent },
+  { path: 'adminpass', component: ChngpassComponent },
+  { path: 'adminpayroll', component: AdminpayrollComponent },
 
-  {path: 'adminprofile', component: MyprofileComponent},
-  {path: 'admindashboard', component: AdmindashboardComponent},
-  {path: 'adminprofileedit', component: EditprofileComponent}
 
-  
+  // Doctor > Profile
+  {path: 'doctorprofile', component: MyprofiledocComponent},
+  {path: 'doctorprofileedit', component: EditprofiledocComponent},
+
+  // Nurse > Profile
+  {path: 'nurseprofile', component: MyprofilenrsComponent},
+  {path: 'nurseprofileedit', component: EditprofilenrsComponent},
+
+  // Patient > Profile
+  {path: 'patientprofile', component: MyprofilepntComponent},
+  {path: 'patientprofileedit', component: EditprofilepntComponent},
+
+  // Receptionist > Profile
+  {path: 'receptionist-profile', component: MyprofilerecepComponent},
+  {path: 'receptionist-profile-edit', component: EditprofilerecepComponent},
+
 
 ];
 

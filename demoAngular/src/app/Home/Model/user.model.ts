@@ -3,4 +3,5 @@ export class UserModel{
     name!: string;
     email!: string;
     password!: string;
+    role!: string;
 }

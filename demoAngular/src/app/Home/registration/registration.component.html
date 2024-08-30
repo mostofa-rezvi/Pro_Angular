@@ -2,20 +2,20 @@
     <h2>Registration here...</h2>
     <form [formGroup]="regForm" (ngSubmit)="onSubmit()" class="m-3">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Name</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" formControlName="name" required="required">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" formControlName="name" required="required">
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" required="required" formControlName="email">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" required="required" formControlName="email">
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password" required="required">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" formControlName="password" required="required">
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Registration</button>
     </form>
 </div>

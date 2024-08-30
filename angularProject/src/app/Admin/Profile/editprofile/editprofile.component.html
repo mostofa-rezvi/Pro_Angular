@@ -1,5 +1,16 @@
 <div class="mt-5 edit-profile-container" *ngIf="profile">
-  <h1>Edit Profile</h1>
+  <!-- <h1>Edit Profile</h1> -->
+  <div class="row">
+    <div class="col-sm-5 col-5">
+      <h4 class="page-title">Edit Profile</h4>
+    </div>
+    <div class="col-sm-7 col-7 text-right m-b-20">
+      <a href="adminprofile" class="btn btn-primary btn-rounded float-end text-white m-1">
+        <i class="fa fa-arrow-left"></i>
+        <span> Back</span>
+      </a>
+    </div>
+  </div>
 
   <form (ngSubmit)="updateProfile()">
     <div class="form-group">

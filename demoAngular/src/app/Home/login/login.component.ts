@@ -29,9 +29,10 @@ export class LoginComponent {
       this.authService.login(credentials)
         .subscribe({
           next: res => {
-            console.log('User Logged in Successfully.', res);
+            console.log('User Login Successfully.', res);
             this.authService.storeToken(res.token);
-            this.router.navigate(['/']);
+            const role = this.authService.getUserRole();
+            this.router.navigate(['userprofile']);
           },
           error: error => {
             console.log('Error Login' + error);

@@ -156,33 +156,118 @@
       "status": "sadsadsd"
     }
   ],
-  "profile":
-    {
-      "name": "John Doe M",
-      "specialization": "Cardiology",
-      "phone": "123-456-7890",
-      "email": "john.doe@example.com",
-      "birthday": "1980-01-01",
-      "address": "123 Main St, City, Country",
-      "gender": "Male",
-      "avatar": "https://example.com/avatar.jpg",
-      "employeeId": "EMP0012",
-      "education": [
-        {
-          "institution": "Medical University",
-          "degree": "MD",
-          "startYear": "2000",
-          "endYear": "2004"
-        }
-      ],
-      "experience": [
-        {
-          "position": "Senior Doctor",
-          "startDate": "2005-01-01",
-          "endDate": "Present"
-        }
-      ]
-    },
+  "adminprofile": {
+    "name": "John Doe M",
+    "specialization": "Cardiology",
+    "phone": "123-456-7890",
+    "email": "john.doe@example.com",
+    "birthday": "1980-01-01",
+    "address": "123 Main St, City, Country",
+    "gender": "Male",
+    "avatar": "https://example.com/avatar.jpg",
+    "employeeId": "EMP0012",
+    "education": [
+      {
+        "institution": "Medical University",
+        "degree": "MD",
+        "startYear": "2000",
+        "endYear": "2004"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Senior Doctor",
+        "startDate": "2005-01-01",
+        "endDate": "Present"
+      }
+    ]
+  },
+  "doctorprofile": {
+    "name": "Jane Smith",
+    "specialization": "Pediatrics",
+    "phone": "987-654-3210",
+    "email": "jane.smith@example.com",
+    "birthday": "1975-06-15",
+    "address": "456 Elm St, Townsville, Country",
+    "gender": "Female",
+    "avatar": "https://www.shutterstock.com/image-photo/profile-photo-attractive-family-doc-600nw-1724693776.jpg",
+    "licenseId": "LIC1234",
+    "education": [
+      {
+        "institution": "Health University",
+        "degree": "MD",
+        "startYear": "1995",
+        "endYear": "1999"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Consultant Pediatrician",
+        "startDate": "2000-02-01",
+        "endDate": "Present"
+      }
+    ]
+  },
+  "nurseprofile": {
+    "name": "Jane Doe",
+    "specialization": "Pediatrics",
+    "phone": "987-654-3210",
+    "email": "jane.doe@example.com",
+    "birthday": "1985-06-15",
+    "address": "456 Elm St, City, Country",
+    "gender": "Female",
+    "avatar": "https://img.freepik.com/free-photo/medium-shot-female-nurse-hospital_23-2150796694.jpg",
+    "licenseNumber": "NUR12345",
+    "education": [
+      {
+        "institution": "Nursing School",
+        "degree": "BSN",
+        "startYear": "2008",
+        "endYear": "2012"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Registered Nurse",
+        "startDate": "2013-01-01",
+        "endDate": "Present"
+      }
+    ]
+  },
+  "patientprofile": {
+    "name": "Jane Smith",
+    "dateOfBirth": "1990-05-15",
+    "phone": "987-654-3210",
+    "email": "jane.smith@example.com",
+    "address": "456 Elm St, Town, Country",
+    "gender": "Female",
+    "avatar": "https://www.befunky.com/images/wp/wp-2021-01-linkedin-profile-picture-focus-face.jpg?auto=avif,webp&format=jpg&width=944",
+    "medicalHistory": [
+      {
+        "condition": "Asthma",
+        "diagnosisDate": "2010-03-22",
+        "notes": "Mild asthma, using inhaler as needed."
+      }
+    ],
+    "allergies": [
+      {
+        "substance": "Penicillin",
+        "reaction": "Hives"
+      }
+    ]
+  },
+  "receptionistprofile": {
+    "name": "Jane Doe",
+    "phone": "987-654-3210",
+    "email": "jane.doe@example.com",
+    "address": "456 Elm St, City, Country",
+    "gender": "Female",
+    "avatar": "https://media.istockphoto.com/id/1698740094/photo/smiling-female-receptionist-looking-at-camera.jpg?s=612x612&w=0&k=20&c=aK-FETZNMjdySyUJTURIHggPyrsLvEBO7Ad_jMwtYy4=",
+    "employeeId": "REC0012",
+    "position": "Front Desk Receptionist",
+    "department": "Administration",
+    "workHours": "9 AM - 5 PM"
+  },
   "activitiesdoc": [],
   "appointmentdoc": [],
   "dashboarddoc": [],
@@ -191,5 +276,4 @@
   "profiledoc": [],
   "reportdoc": [],
   "settingsdoc": []
-
 }
