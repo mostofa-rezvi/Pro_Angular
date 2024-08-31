@@ -35,7 +35,18 @@ import { MyprofilepntComponent } from './PatientDashBoard/PatientProfile/myprofi
 import { EditprofilepntComponent } from './PatientDashBoard/PatientProfile/editprofilepnt/editprofilepnt.component';
 import { MyprofilerecepComponent } from './ReceptionistDashBoard/ReceptionistProfile/myprofilerecep/myprofilerecep.component';
 import { EditprofilerecepComponent } from './ReceptionistDashBoard/ReceptionistProfile/editprofilerecep/editprofilerecep.component';
-// import { flush } from '@angular/core/testing';
+import { DoctorlistadminComponent } from './Doctors/doctorlistadmin/doctorlistadmin.component';
+import { NurselistadminComponent } from './Nurse/nurselistadmin/nurselistadmin.component';
+import { ReceptionistlistadminComponent } from './Admin/Receptionist/receptionistlistadmin/receptionistlistadmin.component';
+import { AddappointmentComponent } from './ReceptionistDashBoard/ReceptionistAppointment/addappointment/addappointment.component';
+import { UpdateappointmentComponent } from './ReceptionistDashBoard/ReceptionistAppointment/updateappointment/updateappointment.component';
+import { ViewappointmentComponent } from './ReceptionistDashBoard/ReceptionistAppointment/viewappointment/viewappointment.component';
+import { ListofappointmentComponent } from './ReceptionistDashBoard/ReceptionistAppointment/listofappointment/listofappointment.component';
+import { CardiacdepartmentComponent } from './HomePage/DoctorsDepartment/cardiacdepartment/cardiacdepartment.component';
+import { ChilddepartmentComponent } from './HomePage/DoctorsDepartment/childdepartment/childdepartment.component';
+import { GeneraldepartmentComponent } from './HomePage/DoctorsDepartment/generaldepartment/generaldepartment.component';
+import { NeurodepartmentComponent } from './HomePage/DoctorsDepartment/neurodepartment/neurodepartment.component';
+import { OrthopedicsdepartmentComponent } from './HomePage/DoctorsDepartment/orthopedicsdepartment/orthopedicsdepartment.component';
 
 const routes: Routes = [
   { path: 'activities', component: ActivitiesComponent },
@@ -58,14 +69,17 @@ const routes: Routes = [
   { path: 'adddoctor', component: AdddoctorComponent },
   { path: 'viewdoctor', component: ViewdoctorComponent },
   { path: 'updatedoctor/:id', component: UpdatedoctorComponent },
+  { path: 'doctorlistadmin', component: DoctorlistadminComponent },
   // Admin > Nurse Crud
   { path: 'addnurse', component: AddnurseComponent },
   { path: 'viewnurse', component: ViewnurseComponent },
   { path: 'updatenurse/:id', component: UpdatenurseComponent },
+  { path: 'nurselistadmin', component: NurselistadminComponent },
   // Admin > Receptionist Curd
   { path: 'viewrecep', component: ViewReceptionistComponent },
   { path: 'updaterecep/:id', component: UpdateReceptionistComponent },
   { path: 'addrecep', component: AddReceptionistComponent },
+  { path: 'receplistadmin', component: ReceptionistlistadminComponent },
   // Admin > Department Crud
   { path: 'viewdepartment', component: ViewdepartmentComponent },
   { path: 'updatedepartment/:id', component: UpdatedepartmentComponent },
@@ -78,21 +92,30 @@ const routes: Routes = [
 
 
   // Doctor > Profile
-  {path: 'doctorprofile', component: MyprofiledocComponent},
-  {path: 'doctorprofileedit', component: EditprofiledocComponent},
-
+  { path: 'doctorprofile', component: MyprofiledocComponent },
+  { path: 'doctorprofileedit', component: EditprofiledocComponent },
   // Nurse > Profile
-  {path: 'nurseprofile', component: MyprofilenrsComponent},
-  {path: 'nurseprofileedit', component: EditprofilenrsComponent},
-
+  { path: 'nurseprofile', component: MyprofilenrsComponent },
+  { path: 'nurseprofileedit', component: EditprofilenrsComponent },
   // Patient > Profile
-  {path: 'patientprofile', component: MyprofilepntComponent},
-  {path: 'patientprofileedit', component: EditprofilepntComponent},
-
+  { path: 'patientprofile', component: MyprofilepntComponent },
+  { path: 'patientprofileedit', component: EditprofilepntComponent },
   // Receptionist > Profile
-  {path: 'receptionist-profile', component: MyprofilerecepComponent},
-  {path: 'receptionist-profile-edit', component: EditprofilerecepComponent},
+  { path: 'receptionist-profile', component: MyprofilerecepComponent },
+  { path: 'receptionist-profile-edit', component: EditprofilerecepComponent },
 
+  // Receptionist > Appointment for all
+  { path: 'addappointment', component: AddappointmentComponent },
+  { path: 'updateappointment/:id', component: UpdateappointmentComponent },
+  { path: 'viewappointment', component: ViewappointmentComponent },
+  { path: 'listappointment', component: ListofappointmentComponent },
+
+  // Department Home Routing
+  { path: 'cardiac', component: CardiacdepartmentComponent },
+  {path: 'childdepart', component: ChilddepartmentComponent},
+  {path: 'generaldepart', component: GeneraldepartmentComponent},
+  {path: 'neurodepart', component: NeurodepartmentComponent},
+  {path: 'orthodepart', component: OrthopedicsdepartmentComponent},
 
 ];
 

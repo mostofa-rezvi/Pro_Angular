@@ -1,9 +1,9 @@
 <div class="container mt-5">
     <div class="row">
-        <div class="col-sm-4 col-3">
-            <h4 class="page-title">Update Receptionist:</h4>
+        <div class="col-sm-6 col-6">
+            <h4 class="page-title text-left">Update Receptionist:</h4>
         </div>
-        <div class="col-sm-8 col-9 text-right m-b-20">
+        <div class="col-sm-6 col-6 text-right m-b-20">
             <a href="viewrecep" class="btn btn-primary btn-rounded float-end text-white m-1">
                 <i class="fa fa-arrow-left"></i><span> Back </span>
             </a>
@@ -31,8 +31,16 @@
         </div>
         <div class="form-group">
             <label for="shift">Shift:</label>
-            <input id="shift" type="text" [(ngModel)]="receptionist.shift" name="shift" required />
+            <select id="shift" [(ngModel)]="receptionist.shift" name="shift" required>
+                <option [value]="true">Morning</option>
+                <option [value]="false">Evening</option>
+                <option [value]="false">Night</option>
+            </select>
         </div>
+        <!-- <div class="form-group">
+            <label for="shift">Shift:</label>
+            <input id="shift" type="text" [(ngModel)]="receptionist.shift" name="shift" required />
+        </div> -->
         <div class="form-group">
             <label for="status">Status:</label>
             <input id="status" type="text" [(ngModel)]="receptionist.status" name="status" required />

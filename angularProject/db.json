@@ -103,18 +103,18 @@
   ],
   "doctors": [
     {
-      "id": "6725",
-      "drid": "123",
-      "firstname": "qwer",
-      "lastname": "qerer",
-      "email": "rezvi@mail.com",
-      "phone": "2344323",
-      "address": "Azimpur",
-      "dob": "2024-08-21",
-      "gender": "true",
-      "photo": "ok",
-      "specialization": "ok",
-      "department": "ok"
+      "id": "a30f",
+      "drid": "Dr001",
+      "firstname": "Dr. Major (Retd)",
+      "lastname": "Zeena Salwa",
+      "email": "zeena.salwa@gmail.com",
+      "phone": "01819325077",
+      "address": "Dhaka",
+      "dob": "2024-09-07",
+      "gender": "false",
+      "photo": "https://www.squarehospital.com/storage/images/1716367107.png",
+      "specialization": "Pediatrics and Child Development Center (CDC)",
+      "department": "CHILD DEVELOPMENT"
     }
   ],
   "nurses": [
@@ -135,14 +135,64 @@
   ],
   "departments": [
     {
-      "id": "45ca",
-      "name": "Mostofa Blannk",
-      "headOfDepartment": "dfsgs",
-      "location": "sdfgdfg",
-      "phone": "0987",
+      "id": "D001",
+      "name": "CHILD DEVELOPMENT",
+      "headOfDepartment": "Dr. Major (Retd) Zeena Salwa",
+      "location": "Dhaka",
+      "phone": "01819325077 ",
+      "email": "zeena.salwa@gmail.com",
+      "numberOfDoctors": "4",
+      "numberOfNurses": "6"
+    },
+    {
+      "id": "D002",
+      "name": "GENERAL SURGERY",
+      "headOfDepartment": "Dr. Mohammad Israt Faisal",
+      "location": "Dhaka",
+      "phone": "01815985077 ",
+      "email": "israt.faisal@gmail.com",
+      "numberOfDoctors": "7",
+      "numberOfNurses": "5"
+    },
+    {
+      "id": "D003",
+      "name": "ORTHOPEDICS",
+      "headOfDepartment": "Dr. Md. O.F.G Kibria",
+      "location": "Dhaka",
+      "phone": "01819325077 ",
+      "email": "kibria@gmail.com",
+      "numberOfDoctors": "4",
+      "numberOfNurses": "8"
+    },
+    {
+      "id": "D004",
+      "name": "NEURO SURGERY",
+      "headOfDepartment": "Dr. A M Rejaus Satter",
+      "location": "Dhaka",
+      "phone": "01819325077 ",
+      "email": "satter@gmail.com",
+      "numberOfDoctors": "3",
+      "numberOfNurses": "6"
+    },
+    {
+      "id": "D005",
+      "name": "CARDIAC & VASCULAR SURGERY",
+      "headOfDepartment": "Dr. Md. Akhtanur Rahman Joarder",
+      "location": "Dhaka",
+      "phone": "01819325077 ",
+      "email": "joarder@gmail.com",
+      "numberOfDoctors": "4",
+      "numberOfNurses": "6"
+    },
+    {
+      "id": "f054",
+      "name": "Bangla",
+      "headOfDepartment": "Bangla",
+      "location": "Dhaka",
+      "phone": "0987654321",
       "email": "rezvi@gmail.com",
-      "numberOfDoctors": "34543",
-      "numberOfNurses": "3454"
+      "numberOfDoctors": "4",
+      "numberOfNurses": "6"
     }
   ],
   "receptionists": [
@@ -153,6 +203,15 @@
       "email": "rblannk@gmail.com",
       "gender": "true",
       "shift": "sadasd",
+      "status": "sadsadsd"
+    },
+    {
+      "id": "1890",
+      "name": "Mostofa Blannk",
+      "phone": "0987654321",
+      "email": "rblannk@gmail.com",
+      "gender": "true",
+      "shift": "true",
       "status": "sadsadsd"
     }
   ],
@@ -268,12 +327,36 @@
     "department": "Administration",
     "workHours": "9 AM - 5 PM"
   },
-  "activitiesdoc": [],
+  "appointments": [
+    {
+      "id": "",
+      "departments": {
+        "id": "45ca"
+      },
+      "doctors": {
+        "drid": "123"
+      },
+      "patientName": "gas",
+      "patientEmail": "rezvi@gmail.com",
+      "appointmentDate": "2024-09-07",
+      "appointmentTime": "16:35"
+    },
+    {
+      "id": "9c77",
+      "patientName": "Emran",
+      "patientEmail": "emran@gmail.com",
+      "appointmentDate": "2024-08-08",
+      "appointmentTime": "21:10"
+    },
+    {
+      "id": "1bac",
+      "patientName": "Emran",
+      "patientEmail": "emran@gmail.com",
+      "appointmentDate": "2024-09-02",
+      "appointmentTime": "21:12"
+    }
+  ],
   "appointmentdoc": [],
-  "dashboarddoc": [],
   "patientsdoc": [],
-  "payrolldoc": [],
-  "profiledoc": [],
-  "reportdoc": [],
-  "settingsdoc": []
+  "reportdoc": []
 }

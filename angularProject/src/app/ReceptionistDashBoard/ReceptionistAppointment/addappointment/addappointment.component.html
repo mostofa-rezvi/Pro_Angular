@@ -1,0 +1,47 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-6 col-6">
+            <h4 class="page-title text-left">Add Appointment:</h4>
+        </div>
+        <div class="col-sm-6 col-6 text-right m-b-20">
+            <a href="viewappointment" class="btn btn-primary btn-rounded float-end text-white m-1">
+                <i class="fa fa-arrow-left"></i><span> Back </span>
+            </a>
+        </div>
+    </div>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" [(ngModel)]="appointment.patientName" name="patientName" required />
+        </div>
+
+        <div class="form-group">
+            <label for="patientEmail">Patient Email:</label>
+            <input type="email" id="patientEmail" [(ngModel)]="appointment.patientEmail" name="patientEmail" required />
+        </div>
+
+        <div class="form-group">
+            <label for="appointmentDate">Appointment Date:</label>
+            <input type="date" id="appointmentDate" [(ngModel)]="appointment.appointmentDate" name="appointmentDate"
+                required />
+        </div>
+
+        <div class="form-group">
+            <label for="appointmentTime">Appointment Time:</label>
+            <input type="time" id="appointmentTime" [(ngModel)]="appointment.appointmentTime" name="appointmentTime"
+                required />
+        </div>
+
+        <div class="form-group">
+            <label for="department">Department ID:</label>
+            <input type="text" id="department" [(ngModel)]="appointment.departments.id" name="department" required />
+        </div>
+
+        <div class="form-group">
+            <label for="doctor">Doctor ID:</label>
+            <input type="text" id="doctor" [(ngModel)]="appointment.doctors.drid" name="doctor" required />
+        </div>
+
+        <button class="m-3" type="submit">Add Appointment</button>
+    </form>
+</div>

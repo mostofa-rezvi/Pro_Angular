@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DoctorProfileModel } from '../../Model/doctorprofile.model';
-import { DoctorprofileService } from '../../Service/doctorprofile.service';
 import { Router } from '@angular/router';
+import { DoctorprofileService } from '../../Service/doctorprofile.service';
 
 @Component({
   selector: 'app-editprofiledoc',
