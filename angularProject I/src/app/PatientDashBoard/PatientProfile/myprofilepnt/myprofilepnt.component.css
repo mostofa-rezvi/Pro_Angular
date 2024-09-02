@@ -10,7 +10,8 @@ body {
 .main-wrapper {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
+    height: 130vh;
 }
 
 .page-wrapper {

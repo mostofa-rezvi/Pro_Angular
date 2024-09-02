@@ -86,7 +86,7 @@ const routes: Routes = [
   },
   {
     path: 'doctorlistadmin', component: DoctorlistadminComponent, canActivate: [AuthGuard, RoleGuard],
-    data: { role: ['admin', 'user', 'doctor', 'nurse', 'receptionist'] }
+    data: { role: 'admin' }
   },
 
   // Admin > Nurse Crud
