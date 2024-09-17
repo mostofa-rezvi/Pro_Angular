@@ -1,5 +1,0 @@
-I work on hospital management system project in angular with json server where I need Full doctor part system.
-
-First I need component model: activitiesdoc, appointmentdoc, dashboarddoc, patientdoc, payrolldoc, profiledoc, reportdoc, settingsdoc
-
-Second I need this model json part and service.ts part.
