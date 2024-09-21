@@ -1,6 +1,0 @@
-addappointment.component.html: 
-
-addappointment.component.css:
-
-
-now convert this addappointment html and css code to pervious adddoctor html and css code 
